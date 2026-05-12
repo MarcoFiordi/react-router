@@ -8,7 +8,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 import './styles/index.css'
 
-
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(

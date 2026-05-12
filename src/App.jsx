@@ -1,23 +1,23 @@
 import { useState } from "react";
-import index from "./pages/Index";
-import contacts from "./pages/contacts";
+import {BrowserRouter, Routes, Route
+} from "react-router-dom";
+import Index from "./pages";
+import Contacts from "./pages/contacts";
+
 
 function App() {
-  const[page, setPage] = useState('home');
-  return <>
-  <ul>
-    <li>
-      home
-    </li>
-    <li>
-      chi siamo
-    </li>
-  </ul>
-
-  <main>
-    {page === 'home' && <Index />}
-  </main>
   
-  </>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="" element={<Index/>} />
+        <Route path="/contacts" element={<Contacts/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
+
+  
+  
+  
 }
 export default App;
