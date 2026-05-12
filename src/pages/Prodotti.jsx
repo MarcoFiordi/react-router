@@ -1,6 +1,10 @@
 function Prodotti() {
     return (
-        <div>Prodotti</div>
+        <main>
+            <div>Prodotti</div>
+            <p>lista dei prodotti</p>
+        </main>
+        
     )
 }
 export default Prodotti
