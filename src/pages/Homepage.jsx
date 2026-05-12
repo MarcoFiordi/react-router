@@ -1,6 +1,6 @@
 function Index() {
     return (
-        <div>index</div>
+        <h1>Benvenuti sul nostro sito</h1>
     )
 }
 export default Index;
