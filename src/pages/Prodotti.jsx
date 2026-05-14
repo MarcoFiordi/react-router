@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import { Link } from "react-router";
 function Prodotti() {
     const [prodotti, setProdotti] = useState([]);
 
@@ -38,9 +38,12 @@ function Prodotti() {
                                         {prodotto.price} €
                                     </p>
 
-                                    <button className="btn btn-outline-primary mt-auto">
+                                    <Link
+                                        to={`/prodotti/${prodotto.id}`}
+                                        className="btn btn-outline-primary mt-auto"
+                                    >
                                         Dettaglio
-                                    </button>
+                                    </Link>
                                 </div>
                             </article>
                         </div>

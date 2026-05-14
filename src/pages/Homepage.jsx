@@ -21,9 +21,9 @@ function Homepage() {
 
                         <div className="col-12 col-lg-6 mt-4 mt-lg-0">
                             <div className="hero-card">
-                                <h2>React Router Store</h2>
+                                <h2>Il tuo mini e-commerce</h2>
                                 <p>
-                                    Un mini store creato con React, React Router e Fake Store API.
+                                    Esplora il catalogo, visualizza i prodotti e apri la pagina dettaglio di ogni articolo.
                                 </p>
                             </div>
                         </div>
